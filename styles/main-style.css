@@ -5,6 +5,19 @@
 	src: url('https://fonts.googleapis.com/css?family=Futura');
 }
 
+
+.book-cover {
+	width: 200px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.book-cover img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
 * {
 	box-sizing: border-box;
 }
