@@ -12,7 +12,7 @@
 
 <body>
     <h3>This is a template document</h3>
-    <main>        
+    <main>
         <div class="book">
             <div class="book-cover" id="bookCover">
                 <img src="images/cover.png" alt="Closed Book Cover">
@@ -20,15 +20,28 @@
             </div>
             <script src="scripts/cover-image.js"></script>
             <div class="book-content">
-                <h3>The Tale of Aquilia and Frostclaw</h3>
-                <p>Once upon a time in the mystical land of Frostwater, a sea dragon named Aquilia and a yeti named
-                    Frostclaw forged an extraordinary friendship... (This is a template document)</p>
+                <h3 id="bookTitle">Loading...</h3>
+                <div id="bookContent">Loading...</div>
             </div>
         </div>
     </main>
     <footer id="dynamicFooter"></footer>
     <script src="https://cursedprograms.github.io/cursedentertainment/scripts/footer.js"></script>
     <script src="https://cursedprograms.github.io/cursedentertainment/scripts/500-error-message.js"></script>
+    <script>
+        const data = {
+            "title": "The Tale of Aquilia and Frostclaw",
+            "content": [
+                "Once upon a time in the mystical land of Frostwater, a sea dragon named Aquilia and a yeti named Frostclaw forged an extraordinary friendship...",
+                "As they journeyed through the enchanted realms of Frostwater, they encountered magical creatures, ancient artifacts, and breathtaking landscapes...",
+                "Their friendship became a symbol of unity in Frostwater, bringing together different species and fostering harmony among the inhabitants...",
+                "And so, in the heart of Frostwater, the legacy of Aquilia and Frostclaw lived on, reminding everyone that true friendship knows no bounds."
+            ]
+        };
+
+        document.getElementById('bookTitle').innerText = data.title;
+        document.getElementById('bookContent').innerHTML = data.content.map(paragraph => `<p>${paragraph}</p>`).join('');
+    </script>
 </body>
 
 </html>
