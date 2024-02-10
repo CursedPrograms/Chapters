@@ -1,4 +1,5 @@
 @import url("colors.css");
+@import url("images.css");
 
 @font-face {
 	font-family: 'Futura';
@@ -6,14 +7,15 @@
 }
 
 @keyframes scaleIn {
-    from {
-        opacity: 0.8;
-        transform: scale(0.8);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
+	from {
+		opacity: 0.8;
+		transform: scale(0.8);
+	}
+
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
 }
 
 .book-cover {
@@ -33,20 +35,20 @@
 }
 
 body {
-	background-color: #007ab7;
+	background-color: var(--cursed-color);
 	margin: 0;
 	padding: 0;
 }
 
 footer {
-    background-color: #007ab7;
-    text-align: center; 
-	color:var(--white-color);
+	background-color: var(--cursed-color);
+	text-align: center;
+	color: var(--white-color);
 }
 
 footer a {
-    color: var(--white-color); 
-    text-decoration: none;
+	color: var(--white-color);
+	text-decoration: none;
 }
 
 h1,
@@ -59,14 +61,14 @@ p {
 }
 
 main {
-	background-image: url('../images/bg.png');
+	background-image: var(--main-bg);
 	background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+	background-position: center;
+	background-repeat: no-repeat;
 	margin: 0;
-    padding: 0;
+	padding: 0;
 	display: flex;
-	justify-content: center;	
+	justify-content: center;
 }
 
 .book {
@@ -94,7 +96,7 @@ main {
 	text-align: center;
 	background-size: 2em 2em;
 	background-color: var(--dark-grey-color);
-	color:var(--white-color);
+	color: var(--white-color);
 	transition: transform 2s;
 }
 
@@ -108,39 +110,11 @@ h2 {
 	font-size: 16px;
 }
 
-.separator {
-	--separator-size: 8px;
-	width: var(--separator-size);
-	height: var(--separator-size);
-	background-color: var(--white-color);
-	margin: 50px auto 60px auto;
-	border-radius: 50%;
-	position: relative;
-}
-
-.separator::after,
-.separator::before {
-	content: "";
-	position: absolute;
-	width: 12px;
-	background-color: var(--white-color);
-	height: 2px;
-	top: calc(50% - 1px);
-}
-
-.separator::after {
-	left: 15px;
-}
-
-.separator::before {
-	right: 15px;
-}
-
 .book-content {
-	background-image: url('../images/page.png');
+	background-image: var(--page-bg);
 	background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+	background-position: center;
+	background-repeat: no-repeat;
 	transform: scale(0.9) translateY(30px);
 	transition: all 0.3s 1s;
 }

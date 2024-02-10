@@ -1,0 +1,11 @@
+:root {
+    --main-bg: url('../images/bg.png');
+    --page-bg: url('../images/page.png');
+}
+
+.notworking {
+    --cover-close: url('../images/cover-close.png');
+    --cover-open: url('../images/cover-open.png');
+}
+
+

@@ -1,6 +1,9 @@
-:root {
+:root {  
   --black-color: #0a0a0a;
   --white-color: #f1f1f1;
   --light-grey-color: #8b8b8b;
   --dark-grey-color: #333333;
+
+  --cursed-color: #007ab7;
+  --test-color: #ff00aa;
 }
