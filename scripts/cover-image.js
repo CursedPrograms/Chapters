@@ -2,7 +2,7 @@ var bookCover = document.getElementById('bookCover');
 var isOpen = false;
 var isHovered = false;
 var book = document.querySelector('.book');
-var timer = 800;
+var timer = 600;
 
 book.addEventListener('mouseenter', function () {
     isHovered = true;
