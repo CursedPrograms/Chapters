@@ -67,7 +67,7 @@ main {
 h1 {
 	font-size: 98px;
 	font-weight: 300;
-	color: --light-grey-color;
+	color: --dark-grey-color;
 }
 
 h2 {
@@ -78,7 +78,7 @@ h2 {
 	--separator-size: 8px;
 	width: var(--separator-size);
 	height: var(--separator-size);
-	background-color: --light-grey-color;
+	background-color: --dark-grey-color;
 	margin: 50px auto 60px auto;
 	border-radius: 50%;
 	position: relative;
