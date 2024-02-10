@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Website>
+    <Page name="Book Template index.html">
+        <Link rel="stylesheet" type="text/css" href="index.css" />
+    </Page>
+</Website>
