@@ -24,7 +24,7 @@
 
 ## Story Structure
 
-the Chapters project is structured with individual chapters, each featuring a designated title and associated content. Users have the flexibility to seamlessly add or remove chapters, update titles, and populate content, thereby tailoring their own distinctive narrative. Additionally, an aesthetically pleasing front page facilitates a visually engaging reading experience, enhancing overall usability and professionalism.
+The Chapters project is structured with individual chapters, each featuring a designated title and associated content. Users have the flexibility to seamlessly add or remove chapters, update titles, and populate content, thereby tailoring their own distinctive narrative. Additionally, an aesthetically pleasing front page facilitates a visually engaging reading experience, enhancing overall usability and professionalism.
 
 <a href="https://cursed-entertainment.itch.io/" target="_blank">
     <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/images/logos/logo-wide-grey.png"
