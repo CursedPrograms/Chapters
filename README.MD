@@ -1,4 +1,4 @@
-# Book-Template
+# Chapters
 
 <div align="center">
   <a href="https://github.com/CursedPrograms/book-template/actions/workflows/proof-html.yml">
