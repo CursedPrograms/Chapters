@@ -1,8 +1,8 @@
 # Chapters
 
 <div align="center">
-  <a href="https://github.com/CursedPrograms/book-template/actions/workflows/proof-html.yml">
-    <img class="workflow-badge workflow-success" src="https://github.com/CursedPrograms/book-template/actions/workflows/proof-html.yml/badge.svg" alt="Proof HTML Workflow">
+  <a href="https://github.com/CursedPrograms/Chapters/actions/workflows/proof-html.yml">
+    <img class="workflow-badge workflow-success" src="https://github.com/CursedPrograms/Chapters/actions/workflows/proof-html.yml/badge.svg" alt="Proof HTML Workflow">
   </a>
 </div>
 
@@ -14,7 +14,7 @@
 
 <a href="https://cursedprograms.github.io/book-template/" target="_blank">
     <img src="https://github.com/CursedPrograms/book-template/raw/main/demo-images/demo.png"
-        alt="Book Template Demo">
+        alt="Chapters">
 </a>
 
 ## Getting Started
@@ -28,7 +28,9 @@
 
 The software is structured with individual chapters, each featuring a designated title and associated content. Users have the flexibility to seamlessly add or remove chapters, update titles, and populate content, thereby tailoring their own distinctive narrative. Additionally, an aesthetically pleasing front page facilitates a visually engaging reading experience, enhancing overall usability and professionalism.
 
+<div align="center">
 <a href="https://cursed-entertainment.itch.io/" target="_blank">
     <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/images/logos/logo-wide-grey.png"
-        alt="CursedEntertainment Logo">
+        alt="CursedEntertainment Logo" style="width:250px;">
 </a>
+</div>
