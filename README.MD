@@ -17,6 +17,7 @@
         alt="Chapters">
 </a>
 <br>
+
 ## Getting Started
 
 1. Clone or download this repository.
