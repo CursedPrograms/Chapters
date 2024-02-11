@@ -1,19 +1,36 @@
-<a href="https://github.com/CursedPrograms/book-template/actions/workflows/proof-html.yml">
+# Book-Template
+
+<div align="center">
+  <a href="https://github.com/CursedPrograms/book-template/actions/workflows/proof-html.yml">
     <img class="workflow-badge workflow-success" src="https://github.com/CursedPrograms/book-template/actions/workflows/proof-html.yml/badge.svg" alt="Proof HTML Workflow">
-</a>
+  </a>
+</div>
 
 <div align="center">
   <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23323330.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
   <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%23323330.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
-    <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=white"/>
+  <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=white"/>
 </div>
-
-# Book-Template
 
 <a href="https://cursedprograms.github.io/book-template/" target="_blank">
     <img src="https://github.com/CursedPrograms/book-template/raw/main/demo-images/demo.png"
-        alt="CursedEntertainment Logo">
+        alt="Book Template Demo">
 </a>
+
+## Getting Started
+
+1. Clone or download this repository.
+2. Customize the `data.js` file with your own story content.
+3. Update the image with your own.
+4. Open the `index.html` file in a web browser to view your story.
+
+## Story Structure
+
+The story is organized into chapters, each with a title and content. You can add or remove chapters, update titles, and fill in the content to craft your unique narrative.
+
+## Features
+
+- **Flipping Front Page:** The included HTML file provides a flipping front page for a visually engaging reading experience.
 
 <a href="https://cursed-entertainment.itch.io/" target="_blank">
     <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/images/logos/logo-wide-grey.png"
