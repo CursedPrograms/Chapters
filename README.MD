@@ -1,7 +1,7 @@
 # Chapters
 
-  <a href="https://github.com/CursedPrograms/book-template/actions/workflows/proof-html.yml">
-    <img class="workflow-badge workflow-success" src="https://github.com/CursedPrograms/book-template/actions/workflows/proof-html.yml/badge.svg" alt="Proof HTML Workflow">
+  <a href="https://github.com/CursedPrograms/Chapters/actions/workflows/proof-html.yml">
+    <img class="workflow-badge workflow-success" src="https://github.com/CursedPrograms/Chapters/actions/workflows/proof-html.yml/badge.svg" alt="Proof HTML Workflow">
   </a>
 
 <div align="center">
@@ -12,7 +12,7 @@
 
 <a href="https://cursedprograms.github.io/book-template/" target="_blank">
     <img src="https://github.com/CursedPrograms/book-template/raw/main/demo-images/demo.png"
-        alt="Book Template Demo">
+        alt="Chapters">
 </a>
 
 ## Getting Started
