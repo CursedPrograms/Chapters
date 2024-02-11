@@ -10,7 +10,10 @@
 
 # Book-Template
 
-![Demo Image](/demo-images/demo.png)
+<a href="https://cursedprograms.github.io/book-template/" target="_blank">
+    <img src="https://github.com/CursedPrograms/book-template/raw/main/demo-images/demo.png"
+        alt="CursedEntertainment Logo">
+</a>
 
 <a href="https://cursed-entertainment.itch.io/" target="_blank">
     <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/images/logos/logo-wide-grey.png"
